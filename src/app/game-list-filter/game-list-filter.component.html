@@ -1,0 +1,16 @@
+<div class="div-filter-center">
+  <form action="" class="form-filter">
+    <div class="div-content-1">
+      <input class="input" type="text" placeholder="Nom">
+      <select name="category">
+        <option value="">Catégorie de jeu</option>
+        <option *ngFor="let item of itemStringArray">{{item}}</option>
+      </select>
+      <input class="input" type="text" placeholder="Éditeur">
+    </div>
+    <div class="div-content-2">
+      <input class="button" type="reset" value="RAZ">
+      <input class="button btn-good" type="submit" value="Filter">
+    </div>
+  </form>
+</div>

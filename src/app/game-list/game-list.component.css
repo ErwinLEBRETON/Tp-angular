@@ -1,0 +1,65 @@
+.div-center-card {
+    display:            flex;
+    justify-content:    center;
+    margin-top:         50px;
+}
+
+.content-all-card {
+    justify-content:    space-between;
+    display:            flex;
+    width:              80vw;
+}
+
+.card {
+    width:              30%;
+    background-color:   white;
+    border-radius:      10px;
+}
+
+.img-card {
+    width:              100%;
+}
+
+.div-top-card {
+    padding:            15px;
+    display:            flex;
+}
+
+.div-bottom-card {
+    display:            flex;
+    flex-direction:     column;
+    padding:            15px;
+}
+
+.logo {
+    width:              50px;
+    margin-right:       20px;
+}
+
+.title-card {
+    font-weight:        bold;
+    font-size:          20px;
+}
+
+.note {
+    font-weight:        bold;
+    font-size:          16px;
+}
+
+.div-content-top {
+    width:              100%;
+    display:            flex;
+    justify-content:    space-between;
+}
+
+.div-link {
+    display:            flex;
+}
+
+.link {
+    text-decoration:    none;
+    margin:             20px 20px 5px 10px;
+    color:              black;
+    text-transform:     uppercase;
+    font-weight:        450;
+}

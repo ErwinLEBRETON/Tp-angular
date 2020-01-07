@@ -1,0 +1,25 @@
+<div class="div-center-card">
+  <div class="content-all-card">
+    <div class="card" *ngFor="let item of itemGameArray">
+      <div class="div-top-card">
+        <img class="logo" src="{{item.logo}}" alt="">
+        <div class="div-content-top">
+          <div>
+            <h2 class="title-card">{{item.nom}}</h2>
+            <span>{{item.type}}</span>
+          </div>
+          <span class="note">{{item.note}}</span>
+        </div>
+      </div>
+      <img class="img-card" src="{{item.image}}" alt="">
+      <div class="div-bottom-card">
+        <span>{{item.description}}</span>
+        <div class="div-link">
+          <a class="link" href="">Follow</a>
+          <a class="link" href="">Share</a>
+          <a class="link" href="">Like</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
